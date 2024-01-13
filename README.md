@@ -6,6 +6,9 @@
 
 This simple page shows how works ar.js. It's based in Francisco Estrada's blog ([https://blog.franciscoestrada.mx/tag/ar-js/](https://blog.franciscoestrada.mx/tag/ar-js/)).
 
+
+In order to test it, go to [https://gustavobastian.github.io/VR-second/](https://gustavobastian.github.io/VR-second/), you must have a camera connected to the computer.
+
 ## Marks for scanning
 
 * <strong>Mark1</strong>:
