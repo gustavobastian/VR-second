@@ -1,6 +1,6 @@
 # Very Simple augmented reality page
 
-This simple page shows how works ar.js. It's based in Francisco Estrada's blog ( [https://blog.franciscoestrada.mx/tag/ar-js/](https://blog.franciscoestrada.mx/tag/ar-js/)).
+This simple page shows how works ar.js. It's based in Francisco Estrada's blog ([https://blog.franciscoestrada.mx/tag/ar-js/](https://blog.franciscoestrada.mx/tag/ar-js/)).
 
 ## Marks for scanning
 
@@ -13,7 +13,7 @@ This simple page shows how works ar.js. It's based in Francisco Estrada's blog (
 *  <strong>Mark2</strong>:
   
 <p align="center">
-<img src="./imagen/F_marker.png" style="width:200px;">
+<img src="./pattern/pattern-F_marker.png" style="width:200px;">
 </p>
 
 ## 3d models
