@@ -6,15 +6,15 @@ This simple page shows how works ar.js. It's based in Francisco Estrada's blog (
 
 * <strong>Mark1</strong>:
 
-<div style="display:flex;flex-direction:row;justify-content:center;">
+<p align="center">
 <img src="./imagen/hiro.png" style="width:200px;">
-</div>
+</p>
 
 *  <strong>Mark2</strong>:
   
-<div style="display:flex;flex-direction:row;justify-content:center;">
+<p align="center">
 <img src="./imagen/F_marker.png" style="width:200px;">
-</div>
+</p>
 
 ## 3d models
 
