@@ -1,5 +1,9 @@
 # Very Simple augmented reality page
 
+<p align="center">
+<img src="./imagen/sampleimage.png" style="width:400px;">
+</p>
+
 This simple page shows how works ar.js. It's based in Francisco Estrada's blog ([https://blog.franciscoestrada.mx/tag/ar-js/](https://blog.franciscoestrada.mx/tag/ar-js/)).
 
 ## Marks for scanning
