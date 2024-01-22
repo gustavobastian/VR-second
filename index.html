@@ -2,11 +2,16 @@
 <html lang="es">
     <script src="https://aframe.io/releases/1.0.0/aframe.min.js"></script>
     <script src="https://raw.githack.com/AR-js-org/AR.js/master/aframe/build/aframe-ar.js"></script>
-<!--    <script src="//cdn.8thwall.com/web/aframe/aframe-extras-6.1.1.min.js" crossorigin="anonymous"></script>-->
+    <script src="https://raw.githack.com/fcor/arjs-gestures/master/dist/gestures.js"></script>
 
     <body style="margin : 0px;width:50%; overflow: hidden;">
         
-        <a-scene   renderer="logarithmicDepthBuffer: true;"  embedded arjs="trackingMethod: best; sourceType: webcam; debugUIEnabled: true;">
+        <a-scene   
+            renderer="logarithmicDepthBuffer: true;"  
+            embedded arjs="trackingMethod: best; sourceType: webcam; debugUIEnabled: true;"
+            vr-mode-ui="enabled: false"
+            gesture-detector
+            >
             
             <a-assets>
                 <img id="texture" src="./imagen/rocks_7.jpg">
@@ -33,6 +38,7 @@
                         loop-animations
                         animation-mixer="loop: repeat; repetitions: Infinity"
                         shadow
+                        gesture-handler
                     ></a-entity>
                 
             </a-marker>
@@ -47,6 +53,8 @@
                     loop-animations
                     animation-mixer="loop: repeat; repetitions: Infinity"
                     shadow
+                    gesture-handler
+
                 ></a-entity>
             </a-marker>            
             <a-entity camera></a-entity>
@@ -62,7 +70,9 @@
             const timedelay = setTimeout(delayFunction, 2000);
             function delayFunction() {
             document.getElementById("ale").setAttribute("animation-mixer", "clip:bite");
-        }*/    
+        }*/
+        
+    
         </script>
     </body>
     
